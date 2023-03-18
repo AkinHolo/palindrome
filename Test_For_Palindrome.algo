@@ -1,0 +1,17 @@
+PROCEDURE palindrome(tab: b): STRING
+
+VAR 
+a,:= STRING;
+y,z:= BOOLEAN;
+
+BEGIN
+    a = tab:b.split().reverse().join();
+    if(a == tab:b){
+        return y; 
+    }else{
+        return z;
+    }
+    END_LOOP
+END
+
+WRITE(palindrome(tab: b));
